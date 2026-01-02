@@ -38,8 +38,8 @@ import com.example.questfirebase_094.R
 import com.example.questfirebase_094.modeldata.Siswa
 import com.example.questfirebase_094.view.route.DestinasiHome
 import com.example.questfirebase_094.viewmodel.HomeViewModel
-import com.example.questfirebase_094.viewmodel.PenyediaViewModel
 import com.example.questfirebase_094.viewmodel.StatusUiSiswa
+import com.example.questquestfirebase_094_094.viewmodel.PenyediaViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

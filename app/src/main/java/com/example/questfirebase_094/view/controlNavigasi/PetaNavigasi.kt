@@ -9,6 +9,8 @@ import androidx.navigation.compose.rememberNavController
 import com.example.questfirebase_094.view.route.DestinasiDetail
 import com.example.questfirebase_094.view.route.DestinasiEntry
 import com.example.questfirebase_094.view.route.DestinasiHome
+import com.example.questquestfirebase_094_094.view.EntrySiswaScreen
+import com.example.questquestfirebase_094_094.view.HomeScreen
 
 
 @Composable

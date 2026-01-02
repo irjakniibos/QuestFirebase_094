@@ -27,8 +27,8 @@ import com.example.questfirebase_094.R
 import com.example.questfirebase_094.modeldata.DetailSiswa
 import com.example.questfirebase_094.modeldata.UIStateSiswa
 import com.example.questfirebase_094.view.route.DestinasiEntry
-import com.example.questfirebase_094.viewmodel.EntryViewModel
-import com.example.questfirebase_094.viewmodel.PenyediaViewModel
+import com.example.questquestfirebase_094_094.viewmodel.EntryViewModel
+import com.example.questquestfirebase_094_094.viewmodel.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
