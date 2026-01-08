@@ -4,11 +4,11 @@ Berikut adalah antarmuka pengguna dari aplikasi yang telah dikembangkan, mencaku
 
 ---
 
-### 🏠 Beranda & Daftar Data
+### 🏠 Beranda 
 Menampilkan halaman utama dan daftar data siswa yang tersimpan.
 
-| **Halaman Utama (Home)** | **Daftar Data Siswa** |
-|:------------------------:|:---------------------:|
+| **Halaman Utama (Home)** |
+|:------------------------:
 | <img src="https://github.com/user-attachments/assets/47abdbb5-5dd9-4ad0-8086-b6cbaea5105d" alt="Home Page Baru" width="280"/> 
 | *Navigasi utama aplikasi* | *Menampilkan list data dari database* |
 
