@@ -1,45 +1,26 @@
 ## 📱 Tampilan Aplikasi
 
-Berikut adalah beberapa tampilan utama dari aplikasi yang telah dikembangkan:
+Berikut adalah antarmuka pengguna dari aplikasi yang telah dikembangkan, mencakup fitur manajemen data (CRUD):
 
 ---
 
-### 🏠 Home
-<p align="center">
-  <img 
-    src="https://github.com/user-attachments/assets/d3cea2b7-7354-47f2-98a8-cdd32e9f5f6d"
-    alt="Home Page"
-    width="300"
-  />
-</p>
+### 🏠 Beranda & Daftar Data
+Menampilkan halaman utama dan daftar data siswa yang tersimpan.
 
-Halaman utama aplikasi yang menampilkan ringkasan fitur dan navigasi awal.
+| **Halaman Utama (Home)** | **Daftar Data Siswa** |
+|:------------------------:|:---------------------:|
+| <img src="https://github.com/user-attachments/assets/47abdbb5-5dd9-4ad0-8086-b6cbaea5105d" alt="Home Page Baru" width="280"/> | <img src="https://github.com/user-attachments/assets/b2e376c4-7093-474b-bf1a-53c6fb683e3a" alt="Hasil Data" width="280"/> |
+| *Navigasi utama aplikasi* | *Menampilkan list data dari database* |
 
 ---
 
-### ➕ Tambah Data
-<p align="center">
-  <img 
-    src="https://github.com/user-attachments/assets/9750da12-8169-4543-b791-3150feaedd7b"
-    alt="Tambah Data"
-    width="300"
-  />
-</p>
+### 📝 Manajemen Data
+Fitur untuk menambah, memperbarui, dan menghapus data.
 
-Form input untuk menambahkan data baru ke dalam sistem.
-
----
-
-### 📊 Hasil Data
-<p align="center">
-  <img 
-    src="https://github.com/user-attachments/assets/b2e376c4-7093-474b-bf1a-53c6fb683e3a"
-    alt="Hasil Data"
-    width="300"
-  />
-</p>
-
-Menampilkan data yang telah tersimpan dan diproses oleh aplikasi.
+| **Tambah Data** | **Edit Data** | **Hapus Data** |
+|:---------------:|:-------------:|:--------------:|
+| <img src="https://github.com/user-attachments/assets/9750da12-8169-4543-b791-3150feaedd7b" alt="Tambah Data" width="250"/> | <img src="https://github.com/user-attachments/assets/fa300099-e425-4d27-be59-7dd522cc81d1" alt="Edit Data" width="250"/> | <img src="https://github.com/user-attachments/assets/ef6f7d4b-023e-44f3-b7f7-c309e5a5056b" alt="Hapus Data" width="250"/> |
+| *Form input data baru* | *Form update data siswa* | *Dialog konfirmasi hapus* |
 
 ---
 
