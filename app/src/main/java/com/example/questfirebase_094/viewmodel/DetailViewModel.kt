@@ -1,19 +1,18 @@
-package com.example.questfirebase_094.viewmodel
-
-import com.example.questfirebase_094.repositori.RepositorySiswa
-
 @file:OptIn(InternalSerializationApi::class)
 
+package com.example.questfirebase_094.viewmodel
+
 import com.example.questfirebase_094.modeldata.Siswa
-import com.example.questfirebase_094.view.route.DestinasiDetail
+import kotlinx.serialization.InternalSerializationApi
+import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.ViewModel
+import com.example.questfirebase_094.repositori.RepositorySiswa
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import androidx.lifecycle.SavedStateHandle
-import androidx.lifecycle.ViewModel
+import com.example.questfirebase_094.view.route.DestinasiDetail
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import kotlinx.serialization.InternalSerializationApi
 import java.io.IOException
 
 sealed interface StatusUIDetail {
@@ -22,10 +21,12 @@ sealed interface StatusUIDetail {
     object Loading : StatusUIDetail
 }
 
-class DetailViewModel(savedStateHandle: SavedStateHandle, private val repositorySiswa: RepositorySiswa) : ViewModel() {
-
+class DetailViewModel(
+    savedStateHandle: SavedStateHandle,
+    private val repositorySiswa: RepositorySiswa
+) : ViewModel() {
     private val idSiswa: Long =
-        checkNotNull(savedStateHandle.get<String>(DestinasiDetail.itemIdArg)?.toLong())
+        savedStateHandle.get<String>(DestinasiDetail.itemIdArg)?.toLong()
             ?: error("idSiswa tidak ditemukan di SavedStateHandle")
 
     var statusUIDetail: StatusUIDetail by mutableStateOf(StatusUIDetail.Loading)
