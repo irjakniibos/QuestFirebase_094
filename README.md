@@ -9,7 +9,7 @@ Menampilkan halaman utama dan daftar data siswa yang tersimpan.
 
 | **Halaman Utama (Home)** | **Daftar Data Siswa** |
 |:------------------------:|:---------------------:|
-| <img src="https://github.com/user-attachments/assets/47abdbb5-5dd9-4ad0-8086-b6cbaea5105d" alt="Home Page Baru" width="280"/> | <img src="https://github.com/user-attachments/assets/b2e376c4-7093-474b-bf1a-53c6fb683e3a" alt="Hasil Data" width="280"/> |
+| <img src="https://github.com/user-attachments/assets/47abdbb5-5dd9-4ad0-8086-b6cbaea5105d" alt="Home Page Baru" width="280"/> 
 | *Navigasi utama aplikasi* | *Menampilkan list data dari database* |
 
 ---
