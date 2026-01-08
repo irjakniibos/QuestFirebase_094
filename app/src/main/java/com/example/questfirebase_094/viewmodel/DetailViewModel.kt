@@ -1,5 +1,7 @@
 package com.example.questfirebase_094.viewmodel
 
+import com.example.questfirebase_094.repositori.RepositorySiswa
+
 @file:OptIn(InternalSerializationApi::class)
 
 import com.example.questfirebase_094.modeldata.Siswa
