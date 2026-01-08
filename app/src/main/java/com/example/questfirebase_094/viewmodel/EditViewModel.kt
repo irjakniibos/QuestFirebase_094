@@ -1,5 +1,18 @@
 package com.example.questfirebase_094.viewmodel
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.questfirebase_094.modeldata.DetailSiswa
+import com.example.questfirebase_094.modeldata.UIStateSiswa
+import com.example.questfirebase_094.modeldata.toDataSiswa
+import com.example.questfirebase_094.repositori.RepositorySiswa
+import com.example.questfirebase_094.view.route.DestinasiDetail
+import kotlinx.coroutines.launch
+
 class EditViewModel(savedStateHandle: SavedStateHandle, private val repositorySiswa: RepositorySiswa) : ViewModel() {
     var uiStateSiswa by mutableStateOf(UIStateSiswa())
         private set
@@ -25,6 +38,7 @@ class EditViewModel(savedStateHandle: SavedStateHandle, private val repositorySi
             nama.isNotBlank() && alamat.isNotBlank() && telpon.isNotBlank()
         }
     }
+
     suspend fun editSatuSiswa(){
         if (validasiInput(uiStateSiswa.detailSiswa)){
             try {
